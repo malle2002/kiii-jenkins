@@ -5,7 +5,6 @@ pipeline {
         REGISTRY = "https://registry.hub.docker.com"
         CREDENTIALS_ID = "dockerhub"
     }
-
     stages {
         stage('Clone repository') {
             steps {
